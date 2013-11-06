@@ -16,6 +16,7 @@
     "url": "https://github.com/dalsgaard/grunt-night/issues"
   },
   "devDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "grunt-contrib-jade": "~0.8.0"
   }
 }
