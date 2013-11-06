@@ -14,10 +14,18 @@ module.exports = function(grunt) {
         ext: '.html',
         dest: 'public'
       }
+    },
+
+    watch: {
+      jade: {
+        files: 'jade/*.jade',
+        tasks: 'jade'
+      }
     }
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-jade');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
 }
